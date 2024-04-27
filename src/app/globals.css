@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h4 {
+    @apply text-base;
+    @apply font-bold;
+  }
+
+  .detailed {
+    @apply text-xs;
+    @apply text-slate-500;
+  }
+}
